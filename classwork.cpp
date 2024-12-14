@@ -4,13 +4,17 @@
 int main()
 {
   int age;
-  age = 17;
+  age = 10;
   double price = 19.99;
-  int pets;
-  pets = 0;
-  int grade;
-  grade = 11;
+  bool hasPets = true;
+//std: :end 1 is new line or use \n
+std::cout << age << "\n";
+std::cout << price << "\n";
+std::cout << hasPets << "\n";
 
+std::cout << "I am" << " " << age << " years old.\n";
+
+std::cout << "The price will be " << price;
 
   return 0;
 }
